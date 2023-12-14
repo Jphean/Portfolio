@@ -1,26 +1,23 @@
 ## **Project: Survey transformation into a Tableau-compatible format**
 
 ### Overview:
-This Excel file [ contains data collected from a questionnaire conducted for [Client Name]. The purpose of the questionnaire was to gather feedback and insights regarding [topic or purpose of the questionnaire].
+This Excel file [Data - Survey Monkey Output] contains data from a questionnaire. And the "Desired Format" sheet contains the desired format.
 
-File Structure:
-The Excel file consists of two sheets:
+### File Structure:
+The Excel file named [Data - Survey Monkey Output Edited] consists of four sheets:
 
-Sheet 1 (Responses): Contains the respondent ID, answers to each question, and timestamps.
-Sheet 2 (Data Dictionary): Provides a data dictionary explaining each column's content and format.
-Data Description:
-Respondent ID: Unique identifier for each respondent.
-Question 1, Question 2, ...: Columns containing responses to specific questions from the questionnaire.
-Timestamp: Date and time of each response.
-Data Cleaning and Preparation:
-The data underwent basic cleaning, including the removal of duplicate entries and handling of missing values. Timestamps were standardized to UTC format for consistency.
+> Sheet 1 (Raw_Data): Contains the original data.<br>
+> Sheet 2 (Question): It's a transformation for the headers.<br>
+> Sheet 3 (Edited_Data): It's the original data with the transformed headers.<br>
+> Sheet 4 (Desired_Format): Desired format.<br>
 
-Instructions for Use:
-Open the Excel file using Microsoft Excel or any compatible spreadsheet software.
-Refer to the "Responses" sheet for the questionnaire responses.
-Consult the "Data Dictionary" sheet for column descriptions.
-Limitations and Considerations:
-Some respondents provided incomplete answers.
-There might be a slight bias in responses due to [explain reason, if applicable].
-Contact Information:
-For any inquiries or assistance, please contact [Your Name] at [Your Email] or [Your Phone Number].
+The Python file named [Script1-Data_Manipulation] have the transformation process:
+  - Data import: Geting the file from a directory with _os_ and _pandas_ libraries.
+  - Data cleaning: Dropping columns we don't need.
+  - Data transformation: Using _melt_ function we unpivot the dataframe.
+  - Data integration: Aggregating columns from the file.
+  - Data export: The result is and excel file with the desired format.
+
+### Instructions for Use:
+Install pandas and os lybraries before executing the code.
+Consider the operating system when you use the file root, for Windows is "\\" and for Mac "/".
