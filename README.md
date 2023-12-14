@@ -20,4 +20,7 @@ The Python file named [Script1-Data_Manipulation] have the transformation proces
 
 ### Instructions for Use:
 Install pandas and os lybraries before executing the code.
-Consider the operating system when you use the file root, for Windows is "\\" and for Mac "/".
+Consider the operating system when you use the file root, for Windows is "\\\\" and for Mac "/".
+
+### Contact Information:
+If you hace any sugestion or doubt, please contact me at jhriveros321@gmail.com
