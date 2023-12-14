@@ -19,7 +19,7 @@ The Python file named [Script1-Data_Manipulation] have the transformation proces
   - Data export: The result is and excel file with the desired format.
 
 ### Instructions for Use:
-Install pandas and os lybraries before executing the code.
+Install pandas and os libraries before executing the code.
 Consider the operating system when you use the file root, for Windows is "\\\\" and for Mac "/".
 
 ### Contact Information:
