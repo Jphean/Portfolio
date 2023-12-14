@@ -19,4 +19,3 @@ Mis habilidades incluyen el uso de:
 - Jupyter 📓
 ## Redes Sociales
 * [LinkedIn](www.linkedin.com/in/janpier-riveros)
-* [Correo](jhriveros321@gmail.com)
