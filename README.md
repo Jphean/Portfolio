@@ -8,7 +8,7 @@ Mis intereses principales se centran en:
 - Finanzas
 - Negocios
 
-## Languajes y herramientas:
+## Languajes y Herramientas:
 
 Mis habilidades incluyen el uso de:
 - Python 🐍
@@ -17,3 +17,6 @@ Mis habilidades incluyen el uso de:
 - Power BI 📈
 - Visual Studio Code 💻
 - Jupyter 📓
+## Redes Sociales
+* [LinkedIn](www.linkedin.com/in/janpier-riveros)
+* [Correo](jhriveros321@gmail.com)
