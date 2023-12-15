@@ -8,7 +8,7 @@ Mis intereses principales se centran en:
 - Finanzas
 - Negocios
 
-## Languajes y Herramientas:
+## Lenguajes y Herramientas:
 
 Mis habilidades incluyen el uso de:
 - Python 🐍
