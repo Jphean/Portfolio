@@ -18,4 +18,4 @@ Mis habilidades incluyen el uso de:
 - Visual Studio Code 💻
 - Jupyter 📓
 ## Redes Sociales
-* [LinkedIn](www.linkedin.com/in/janpier-riveros)
+* [LinkedIn](https://www.linkedin.com/in/janpier-riveros/)
